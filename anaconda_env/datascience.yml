@@ -1,0 +1,24 @@
+name: datascience
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8.3
+  - numpy
+  - pandas
+  - scikit-learn
+  - ipyleaflet
+  - matplotlib
+  - plotly
+  - python-graphviz
+  - seaborn
+  - ipywidgets
+  - holoviews
+  - gmaps
+  - jupyter_contrib_nbextensions
+  - mlxtend
+  - prince-factor-analysis
+  - dash
+  - geopy
+  - pip
+  - pip:
+    - kmodes
