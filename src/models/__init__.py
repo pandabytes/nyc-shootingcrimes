@@ -1,5 +1,5 @@
-__all__ = ["supervised", "unsupervised", "utils"]
+__all__ = ["model", "supervised", "unsupervised"]
 
-import models.supervised
-import models.unsupervised
-import models.utils
+import models.model as model
+import models.supervised as supervised
+import models.unsupervised as unsupervised

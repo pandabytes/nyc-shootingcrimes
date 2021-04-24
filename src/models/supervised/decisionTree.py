@@ -5,7 +5,7 @@ import sys
 
 import numpy as np
 import pandas as pd
-import models.utils.decorators as dc
+import utils.decorators as dc
 
 from graphviz import Digraph
 from .treeNode import DecisionNode, LeafNode

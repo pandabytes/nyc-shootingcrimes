@@ -2,7 +2,7 @@ import os
 import pandas as pd
 import numpy as np
 
-import models.utils.decorators as dc
+import utils.decorators as dc
 
 from models.model import SupervisedModel
 from .decisionTree import DecisionTree
